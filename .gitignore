@@ -1,0 +1,16 @@
+# Node Sorcery
+node_modules/        # Summons 8000+ files you absolutely do NOT want in Git
+npm-debug.log*       # npm tantrums — log it, then ignore it
+.env                 # Secrets, lies, and API keys that should stay in the vault
+
+# Operating System Shenanigans
+.DS_Store            # MacOS doodles no one asked for
+Thumbs.db            # Windows flexing its thumbnails — we don’t care
+
+# Logs of Pain and Regret
+logs/                # Where bugs go to cry
+*.log                # Debugging memories best left forgotten
+
+# Brain-Dead IDE Junk
+.vscode/             # VS Code leaving its breadcrumbs
+.idea/               # JetBrains doing JetBrains things
