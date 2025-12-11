@@ -73,7 +73,7 @@ GitHub Stats
   • Lines of Code       : 3.1M++ (and counting...)
 
 Currently Cooking
-  • A fully dockerized dream that works on *your* machine too.
+  • A fully dockerized dream that works on your machine too.
   • CI/CD pipelines that don’t randomly break at 2AM.
   • An API so clean it passes Lint with compliments.
   • C# and JS logic that doesn't bite on Fridays.
