@@ -53,15 +53,12 @@ const generateREADME = async () => {
 
   const readme = `<!-- README Generated via readme.js. If you're reading this raw, congrats. You're early. -->
 
-\`\`\`
-Siddhartha / README.md
-\`\`\`
 
 \`\`\`
-(c) . - . (c)        System.OS     : A black-box dev environment where code is crafted first, polished later. Built on silent documentation dives, dockerized dreams, and dark mode discipline.
-( ⚆ _ ⚆ )           System.Uptime : ${years} years, ${months} months, ${days} days old
- / (_) \\            Location      : Kathmandu, Nepal
-/_/   \\_\\          Status        : Grooving in Full Stack Flow™
+(c).-.(c)        System.OS     : A black-box dev environment where code is crafted first, polished later. Built on silent documentation dives, dockerized dreams, and dark mode discipline.
+( ⚆ _ ⚆ )            System.Uptime : ${years} years, ${months} months, ${days} days old
+ / (_) \\             Location      : Kathmandu, Nepal
+/_/   \\_\\            Status        : Grooving in Full Stack Flow™
 
 Technologia Stack
   • Languages         : C#, TypeScript, Python, JavaScript
