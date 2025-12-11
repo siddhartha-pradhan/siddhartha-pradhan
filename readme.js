@@ -51,7 +51,7 @@ const generateREADME = async () => {
   const { followers, publicRepos, stars } = await getGitHubStats();
   const { years, months, days } = calculateUptime();
 
-  const readme = `<!-- README Generated via readme.js. If you're reading this raw, congrats. You're early. -->
+  const readme = `<!-- README Generated via Readme.JS. If you're reading this raw, congrats. You're early. -->
 
 
 \`\`\`
