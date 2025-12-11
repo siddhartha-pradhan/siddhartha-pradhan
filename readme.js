@@ -87,11 +87,10 @@ Core Philosophy
 
 ---
 
-### 🎮 Faceless Void Mode
+### Faceless Void Mode
 
 When I'm not freezing bugs in time, I'm probably freezing teamfights.
-
-![Faceless Void - Chronosphere](${heroGifPath})
+![Faceless Void – Chronosphere](${heroGifPath})
 
 `;
 
