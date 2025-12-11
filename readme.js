@@ -71,7 +71,7 @@ Currently Cooking
   • C# and JS logic that doesn't bite on Fridays.
   • UIs I don’t want to gouge my eyes over (rarely).
 
-The philosophy I share is "Given proper time, caffeine, and Stack Overflow, I can do anything".
+The philosophy I share is "Given proper time, a running laptop, I'd prefer for a Mac, and Stack Overflow, I can do anything.".
 
 \`\`\`
 `;
