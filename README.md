@@ -36,5 +36,5 @@ Core Philosophy
 
 When I'm not freezing bugs in time, I'm probably freezing teamfights.
 
-![Faceless Void – Chronosphere](assets/faceless-void.gif)
+![Faceless Void – Chronosphere](assets/dota-faceless-void.gif)
 
