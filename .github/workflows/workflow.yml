@@ -1,4 +1,4 @@
-name: Dynamic README Update
+name: Worflow for README Updates.
 
 on:
   schedule:
