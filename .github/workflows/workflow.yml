@@ -1,4 +1,4 @@
-name: Worflow for README Updates.
+name: CI Pipeline & Worflows.
 
 on:
   schedule:

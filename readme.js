@@ -2,7 +2,7 @@ const fs = require("fs");
 const axios = require("axios");
 
 const username = "siddhartha-pradhan";
-const heroGifPath = "assets/faceless-void.gif";
+const heroGifPath = "assets/dota-faceless-void.gif";
 
 const getGitHubStats = async () => {
   const headers = {
