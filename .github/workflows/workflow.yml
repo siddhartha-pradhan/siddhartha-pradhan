@@ -13,27 +13,27 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: 📥 Checkout Repository
+      - name: Checkout Repository
         uses: actions/checkout@v4
         with:
           persist-credentials: true
 
-      - name: 🟩 Set up Node.JS
+      - name: Set up Node.JS
         uses: actions/setup-node@v4
         with:
           node-version: 18
 
-      - name: 📦 Install Dependencies
+      - name: Installation of Dependencies
         run: npm install
 
-      - name: 🧠 Run Dynamic Readme Script
+      - name: Run Dynamic Readme Script
         run: node readme.js
 
-      - name: 🚀 Commit & Push Changes
+      - name: Commit & Push Changes
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           git add README.md
-          git commit -m "📄 GitHub-`main`: Auto-Update on README File via [CI] Pipeline." || exit 0
+          git commit -m "GitHub-`main`: Auto-Update on README File via [CI] Pipeline." || exit 0
           git push
