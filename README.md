@@ -1,16 +1,17 @@
-<!-- README Generated via readme.js. If you're reading this raw, congrats. You're early. -->
+<!-- README Generated via Readme.JS. If you're reading this raw, congrats. You're early. -->
+
 
 ```
 (c).-.(c)            System.OS     : A black-box dev environment where code is crafted first, polished later. Built on silent documentation dives, dockerized dreams, and dark mode discipline.
-( ⚆ _ ⚆ )            System.Uptime : 23 years, 2 months, 28 days old
- / (_) \             Location      : Kathmandu, Nepal
-/_/   \_\            Status        : Grooving in Full Stack Flow™
+( ⚆ _ ⚆ )            System.Uptime : 23 years, 2 months, 28 days old.
+ / (_) \             Location      : Kathmandu, Nepal.
+/_/   \_\            Status        : Grooving in Full Stack Flow™.
 
 Technologia Stack
-  • Languages         : C#, TypeScript, JavaScript
-  • Frameworks        : .NET, React, React Native, Blazor WASM
-  • Tools             : Docker, GitHub Actions, Hangfire, Firebase, Stripe, CI/CD Pipelines
-  • DB Love           : PostgreSQL, SQL Server, Redis
+  • Languages         : C#, TypeScript, JavaScript.
+  • Frameworks        : .NET, React, React Native, Blazor WASM.
+  • Tools             : Docker, GitHub Actions, Hangfire, Firebase, Stripe, CI/CD Pipelines.
+  • DB Love           : PostgreSQL, SQL Server, Redis.
 
 GitHub Stats
   • Public Repositories : 21
@@ -19,7 +20,7 @@ GitHub Stats
   • Lines of Code       : 3.1M++ (and counting...)
 
 Currently Cooking
-  • A fully dockerized dream that works on *your* machine too.
+  • A fully dockerized dream that works on your machine too.
   • CI/CD pipelines that don’t randomly break at 2AM.
   • An API so clean it passes Lint with compliments.
   • C# and JS logic that doesn't bite on Fridays.
@@ -31,7 +32,7 @@ Core Philosophy
 
 ---
 
-### Faceless Void Mode
+### Faceless Void
 
 When I'm not freezing bugs in time, I'm probably freezing teamfights.
 
