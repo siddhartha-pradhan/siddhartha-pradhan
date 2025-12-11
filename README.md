@@ -14,8 +14,8 @@ Technologia Stack
   • DB Love           : PostgreSQL, SQL Server, Redis.
 
 GitHub Stats
-  • Public Repositories : 21
-  • Stars Collected     : 4
+  • Public Repositories : 5
+  • Stars Collected     : 1
   • Followers           : 57
   • Lines of Code       : 3.1M++ (and counting...)
 
