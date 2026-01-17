@@ -16,7 +16,7 @@ Technologia Stack
 GitHub Stats
   • Public Repositories : 6
   • Stars Collected     : 1
-  • Followers           : 63
+  • Followers           : 62
   • Lines of Code       : 3.1M++ (and counting...)
 
 Currently Cooking
