@@ -80,7 +80,7 @@ Currently Cooking
   • UIs I don’t want to gouge my eyes over (rarely).
 
 Core Philosophy
-  "Given proper time, a running laptop (preferably a Mac), and Stack Overflow, I can do anything."
+  "Given proper time, a running laptop (preferably a Mac), and Claude, I can do anything."
 \`\`\`
 
 ---
