@@ -10,19 +10,25 @@ const getGitHubStats = async () => {
     "User-Agent": "dynamic-readme-script"
   };
 
-  const user = await axios.get(`https://api.github.com/users/${username}`, { headers });
-  const repos = await axios.get(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
+  try {
+    const user = await axios.get(`https://api.github.com/users/${username}`, { headers });
+    const repos = await axios.get(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
 
-  let stars = 0;
-  repos.data.forEach((repo) => {
-    stars += repo.stargazers_count;
-  });
+    let stars = 0;
+    repos.data.forEach((repo) => {
+      stars += repo.stargazers_count;
+    });
 
-  return {
-    followers: user.data.followers,
-    publicRepos: user.data.public_repos,
-    stars
-  };
+    return {
+      followers: user.data.followers,
+      publicRepos: user.data.public_repos,
+      stars
+    };
+  } catch (error) {
+    const status = error.response?.status;
+    const message = error.response?.data?.message || error.message;
+    throw new Error(`GitHub API request failed (status: ${status || "N/A"}): ${message}`);
+  }
 };
 
 const calculateUptime = () => {
@@ -93,8 +99,16 @@ When I'm not freezing bugs in time, I'm probably freezing teamfights.
 
 `;
 
-  fs.writeFileSync("README.md", readme);
+  try {
+    fs.writeFileSync("README.md", readme);
+  } catch (error) {
+    throw new Error(`Failed to write README.md: ${error.message}`);
+  }
+
   console.log("README.md updated, congratulations, congratulations.");
 };
 
-generateREADME();
+generateREADME().catch((error) => {
+  console.error(error.message);
+  process.exit(1);
+});
