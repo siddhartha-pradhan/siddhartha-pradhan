@@ -97,4 +97,8 @@ When I'm not freezing bugs in time, I'm probably freezing teamfights.
   console.log("README.md updated, congratulations, congratulations.");
 };
 
-generateREADME();
+if (require.main === module) {
+  generateREADME();
+}
+
+module.exports = { getGitHubStats, calculateUptime, generateREADME };

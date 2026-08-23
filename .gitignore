@@ -13,4 +13,5 @@ logs/                # Where bugs go to cry
 
 # Brain-Dead IDE Junk
 .vscode/             # VS Code leaving its breadcrumbs
-.idea/               # JetBrains doing JetBrains things
+.idea/               # JetBrains doing JetBrains thingsnode_modules/
+coverage/

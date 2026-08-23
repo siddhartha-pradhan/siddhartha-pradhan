@@ -4,7 +4,7 @@
   "description": "const fs = require(\"fs\");\r const axios = require(\"axios\");",
   "main": "readme.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "jest --coverage"
   },
   "repository": {
     "type": "git",
@@ -13,11 +13,19 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "jest": {
+    "testEnvironment": "node",
+    "coverageDirectory": "coverage",
+    "collectCoverageFrom": ["readme.js"]
+  },
   "bugs": {
     "url": "https://github.com/siddhartha-pradhan/siddhartha-pradhan/issues"
   },
   "homepage": "https://github.com/siddhartha-pradhan/siddhartha-pradhan#readme",
   "dependencies": {
     "axios": "^1.9.0"
+  },
+  "devDependencies": {
+    "jest": "^30.4.2"
   }
 }
