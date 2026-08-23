@@ -15,8 +15,6 @@ jobs:
     steps:
       - name: Checkout Repository
         uses: actions/checkout@v4
-        with:
-          persist-credentials: true
 
       - name: Set up Node.JS
         uses: actions/setup-node@v4
@@ -24,7 +22,7 @@ jobs:
           node-version: 18
 
       - name: Installation of Dependencies
-        run: npm install
+        run: npm ci
 
       - name: Run Dynamic Readme Script
         run: node readme.js
