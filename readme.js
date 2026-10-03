@@ -10,8 +10,14 @@ const getGitHubStats = async () => {
     "User-Agent": "dynamic-readme-script"
   };
 
-  const user = await axios.get(`https://api.github.com/users/${username}`, { headers });
-  const repos = await axios.get(`https://api.github.com/users/${username}/repos?per_page=100`, { headers });
+  const user = await axios.get(`https://api.github.com/users/${username}`, {
+    headers,
+    timeout: 10000
+  });
+  const repos = await axios.get(`https://api.github.com/users/${username}/repos?per_page=100`, {
+    headers,
+    timeout: 10000
+  });
 
   let stars = 0;
   repos.data.forEach((repo) => {
@@ -97,4 +103,7 @@ When I'm not freezing bugs in time, I'm probably freezing teamfights.
   console.log("README.md updated, congratulations, congratulations.");
 };
 
-generateREADME();
+generateREADME().catch((err) => {
+  console.error("Failed to generate README:", err.message);
+  process.exit(1);
+});
